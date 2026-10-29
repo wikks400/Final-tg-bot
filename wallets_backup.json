@@ -1,0 +1,788 @@
+{
+  "version": 1,
+  "exportedAt": 1793273561605,
+  "groups": [
+    {
+      "id": "grp_alpha",
+      "name": "Alpha",
+      "description": "Top performing NFT traders"
+    },
+    {
+      "id": "grp_1793235860925_akgbk",
+      "name": "Test Group A",
+      "description": "Group A"
+    },
+    {
+      "id": "grp_1793235860926_bfzsw",
+      "name": "Test Group B",
+      "description": "Group B"
+    },
+    {
+      "id": "grp_1793235860928_a7z9y",
+      "name": "Preserve G1",
+      "description": ""
+    },
+    {
+      "id": "grp_1793235860929_zqcgg",
+      "name": "Preserve G2",
+      "description": ""
+    },
+    {
+      "id": "grp_1793235860932_o1w4x",
+      "name": "Stats Alpha",
+      "description": ""
+    },
+    {
+      "id": "grp_1793235860933_e5ocu",
+      "name": "Stats Whales",
+      "description": ""
+    },
+    {
+      "id": "grp_1793235860950_oz1xo",
+      "name": "Bulk Alpha",
+      "description": "Bulk testing"
+    },
+    {
+      "id": "grp_1793235860959_vpapf",
+      "name": "Persistence Test Group",
+      "description": "Test Desc"
+    },
+    {
+      "id": "grp_1793235860962_pul2s",
+      "name": "Cycle Test Group",
+      "description": "Testing cycles"
+    },
+    {
+      "id": "grp_1793235925001_chqyf",
+      "name": "Whales",
+      "description": "User tracked wallets group"
+    },
+    {
+      "id": "grp_1793273496837_6o8o1",
+      "name": "Test A Grp",
+      "description": "Grp for Test A"
+    },
+    {
+      "id": "grp_1793273496842_mug64",
+      "name": "Test B Grp",
+      "description": "Grp for Test B"
+    },
+    {
+      "id": "grp_1793273496855_sj477",
+      "name": "Test C Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496873_dk1hs",
+      "name": "Test D Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496900_1v834",
+      "name": "Group B Beta",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496900_7zkrv",
+      "name": "Group A Alpha",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496901_mfn5v",
+      "name": "Group C Gamma",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496908_jsug7",
+      "name": "Test F Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496914_tft2i",
+      "name": "Test G Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496920_68sq2",
+      "name": "Test H Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496928_x106f",
+      "name": "Test I Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496935_l6lts",
+      "name": "Test J Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496941_mca0t",
+      "name": "Test K Grp",
+      "description": ""
+    },
+    {
+      "id": "grp_1793273496950_n22ra",
+      "name": "Test M Grp",
+      "description": ""
+    }
+  ],
+  "wallets": [
+    {
+      "address": "0xma00000000000000000000000000000000000018",
+      "label": "M_W18",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000017",
+      "label": "M_W17",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000016",
+      "label": "M_W16",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000015",
+      "label": "M_W15",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000014",
+      "label": "M_W14",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000013",
+      "label": "M_W13",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000012",
+      "label": "M_W12",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000011",
+      "label": "M_W11",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000010",
+      "label": "M_W10",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000009",
+      "label": "M_W9",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000008",
+      "label": "M_W8",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000007",
+      "label": "M_W7",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000006",
+      "label": "M_W6",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000005",
+      "label": "M_W5",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000004",
+      "label": "M_W4",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000003",
+      "label": "M_W3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000002",
+      "label": "M_W2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xma00000000000000000000000000000000000001",
+      "label": "M_W1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496950_n22ra"
+      ]
+    },
+    {
+      "address": "0xka00000000000000000000000000000000000005",
+      "label": "K_W5",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496941_mca0t"
+      ]
+    },
+    {
+      "address": "0xka00000000000000000000000000000000000004",
+      "label": "K_W4",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496941_mca0t"
+      ]
+    },
+    {
+      "address": "0xka00000000000000000000000000000000000003",
+      "label": "K_W3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496941_mca0t"
+      ]
+    },
+    {
+      "address": "0xka00000000000000000000000000000000000002",
+      "label": "K_W2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496941_mca0t"
+      ]
+    },
+    {
+      "address": "0xka00000000000000000000000000000000000001",
+      "label": "K_W1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496941_mca0t"
+      ]
+    },
+    {
+      "address": "0xja33333333333333333333333333333333333333",
+      "label": "J3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496935_l6lts"
+      ]
+    },
+    {
+      "address": "0xja22222222222222222222222222222222222222",
+      "label": "J2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496935_l6lts"
+      ]
+    },
+    {
+      "address": "0xja11111111111111111111111111111111111111",
+      "label": "J1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496935_l6lts"
+      ]
+    },
+    {
+      "address": "0x1a33333333333333333333333333333333333333",
+      "label": "I3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496928_x106f"
+      ]
+    },
+    {
+      "address": "0x1a22222222222222222222222222222222222222",
+      "label": "I2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496928_x106f"
+      ]
+    },
+    {
+      "address": "0x1a11111111111111111111111111111111111111",
+      "label": "I1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496928_x106f"
+      ]
+    },
+    {
+      "address": "0xha33333333333333333333333333333333333333",
+      "label": "H3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496920_68sq2"
+      ]
+    },
+    {
+      "address": "0xha22222222222222222222222222222222222222",
+      "label": "H2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496920_68sq2"
+      ]
+    },
+    {
+      "address": "0xha11111111111111111111111111111111111111",
+      "label": "H1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496920_68sq2"
+      ]
+    },
+    {
+      "address": "0xga33333333333333333333333333333333333333",
+      "label": "G3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496914_tft2i"
+      ]
+    },
+    {
+      "address": "0xga22222222222222222222222222222222222222",
+      "label": "G2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496914_tft2i"
+      ]
+    },
+    {
+      "address": "0xga11111111111111111111111111111111111111",
+      "label": "G1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496914_tft2i"
+      ]
+    },
+    {
+      "address": "0xfa22222222222222222222222222222222222222",
+      "label": "F2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496908_jsug7"
+      ]
+    },
+    {
+      "address": "0xfa11111111111111111111111111111111111111",
+      "label": "F1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496908_jsug7"
+      ]
+    },
+    {
+      "address": "0xec33333333333333333333333333333333333333",
+      "label": "From Grp C",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496901_mfn5v"
+      ]
+    },
+    {
+      "address": "0xeb22222222222222222222222222222222222222",
+      "label": "From Grp B",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496900_1v834"
+      ]
+    },
+    {
+      "address": "0xea11111111111111111111111111111111111111",
+      "label": "From Grp A",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496900_7zkrv"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000015",
+      "label": "D_W15",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000014",
+      "label": "D_W14",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000012",
+      "label": "D_W12",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000013",
+      "label": "D_W13",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000011",
+      "label": "D_W11",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000010",
+      "label": "D_W10",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000008",
+      "label": "D_W8",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000009",
+      "label": "D_W9",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000007",
+      "label": "D_W7",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000006",
+      "label": "D_W6",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000005",
+      "label": "D_W5",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000003",
+      "label": "D_W3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000004",
+      "label": "D_W4",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000002",
+      "label": "D_W2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xda00000000000000000000000000000000000001",
+      "label": "D_W1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496873_dk1hs"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000010",
+      "label": "C_W10",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000009",
+      "label": "C_W9",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000007",
+      "label": "C_W7",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000008",
+      "label": "C_W8",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000006",
+      "label": "C_W6",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000005",
+      "label": "C_W5",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000004",
+      "label": "C_W4",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000003",
+      "label": "C_W3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000002",
+      "label": "C_W2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xca00000000000000000000000000000000000001",
+      "label": "C_W1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496855_sj477"
+      ]
+    },
+    {
+      "address": "0xba00000000000000000000000000000000000005",
+      "label": "B_W5",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496842_mug64"
+      ]
+    },
+    {
+      "address": "0xba00000000000000000000000000000000000006",
+      "label": "B_W6",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496842_mug64"
+      ]
+    },
+    {
+      "address": "0xba00000000000000000000000000000000000003",
+      "label": "B_W3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496842_mug64"
+      ]
+    },
+    {
+      "address": "0xba00000000000000000000000000000000000004",
+      "label": "B_W4",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496842_mug64"
+      ]
+    },
+    {
+      "address": "0xba00000000000000000000000000000000000002",
+      "label": "B_W2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496842_mug64"
+      ]
+    },
+    {
+      "address": "0xba00000000000000000000000000000000000001",
+      "label": "B_W1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496842_mug64"
+      ]
+    },
+    {
+      "address": "0xaa33333333333333333333333333333333333333",
+      "label": "W3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496837_6o8o1"
+      ]
+    },
+    {
+      "address": "0xaa11111111111111111111111111111111111111",
+      "label": "W1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496837_6o8o1"
+      ]
+    },
+    {
+      "address": "0xaa22222222222222222222222222222222222222",
+      "label": "W2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793273496837_6o8o1"
+      ]
+    },
+    {
+      "address": "0xcc33333333333333333333333333333333333333",
+      "label": "Buyer 3",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793235860962_pul2s"
+      ]
+    },
+    {
+      "address": "0xcc11111111111111111111111111111111111111",
+      "label": "Buyer 1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793235860962_pul2s"
+      ]
+    },
+    {
+      "address": "0xcc22222222222222222222222222222222222222",
+      "label": "Buyer 2",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793235860962_pul2s"
+      ]
+    },
+    {
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "label": "Persistence Wallet",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793235860959_vpapf"
+      ]
+    },
+    {
+      "address": "0xcccccccccccccccccccccccccccccccccccccccc",
+      "label": "Multi Accidental",
+      "chain_type": "evm",
+      "groups": []
+    },
+    {
+      "address": "0x9999999999999999999999999999999999999999",
+      "label": "FK Test 1",
+      "chain_type": "evm",
+      "groups": [
+        "grp_1793235925001_chqyf",
+        "grp_alpha"
+      ]
+    },
+    {
+      "address": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "label": "Wallet_0xaaaa",
+      "chain_type": "evm",
+      "groups": [
+        "grp_alpha"
+      ]
+    },
+    {
+      "address": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "label": "Wallet_0xbbbb",
+      "chain_type": "evm",
+      "groups": [
+        "grp_alpha"
+      ]
+    }
+  ]
+}
