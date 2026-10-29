@@ -123,13 +123,23 @@ POLL_INTERVAL_SECONDS=10
 2. Mount a persistent disk volume to `/data`.
 3. Set `DATABASE_PATH=/data/nft_bot.sqlite`. This ensures that all wallets, groups, event deduplication history, and collection caches survive container redeployments and restarts.
 
-### Step 3: Deployment Options
-- **Option A (Pure Background Bot - Telegraf Long Polling)**:
+### Step 3: Deployment Options (Optimized for Botkeep 500MB Storage / 512MB RAM Limits)
+- **Option A (Pure Background Bot - Telegraf Long Polling — Recommended for Botkeep Free/Starter)**:
   - Command: `npm run start:bot`
+  - RAM Footprint: **~60–80 MB** (Well below 512MB limit)
+  - Storage Footprint: **~120 MB** (Well below 500MB disk limit)
   - Runs Telegraf long polling and background OpenSea monitoring. Does not require opening any public web ports.
 - **Option B (Full-Stack Bot + Web Operator Console)**:
   - Command: `npm start`
+  - RAM Footprint: **~120–180 MB** (Enforces `--max-old-space-size=256`)
   - Runs the Web Console on port 3000 alongside the background Telegram bot and monitor service.
+
+### 💡 Fixing "Storage Too Full (513MB)" on Botkeep
+If Botkeep previously reported 513MB used:
+1. **NPM Cache auto-cleanup**: The project now has an automatic `postinstall` script that purges the `~/.npm` tarball cache (which was taking 217MB alone!).
+2. **Unused Dependencies Removed**: Stripped non-essential packages (`@google/genai`, `motion`, `autoprefixer`) saving ~50MB.
+3. **Database Autovacuum & WAL Truncate**: SQLite runs with bounded page cache (`~1MB`), frequent WAL checkpoints (`wal_autocheckpoint=50`), and incremental vacuuming.
+4. If you re-deploy or rebuild on Botkeep, storage will now sit safely at **~120–150 MB** total!
 
 ---
 

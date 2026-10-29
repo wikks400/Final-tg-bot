@@ -33,7 +33,7 @@ import { simulateTelegramMessage, broadcastTelegramAlert, getAdminIds } from '..
 import { monitorService } from '../services/monitorService.ts';
 import { runAllTests } from '../../../test/run_all_tests.ts';
 import { generateProjectZip } from '../../../scripts/create_zip.ts';
-import { NFTEvent } from '../../types.ts';
+import type { NFTEvent } from '../../types.ts';
 
 export const apiRouter = Router();
 

@@ -26,7 +26,7 @@ import {
   Globe,
   Radio,
 } from 'lucide-react';
-import {
+import type {
   DashboardStats,
   TrackedWallet,
   WalletGroup,

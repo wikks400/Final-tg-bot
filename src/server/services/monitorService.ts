@@ -10,7 +10,7 @@ import {
 import { openseaService } from './openseaService.ts';
 import { alertConsolidator } from './alertConsolidator.ts';
 import { broadcastTelegramAlert } from '../telegram/bot.ts';
-import { CollectionMetadata, NFTEvent } from '../../types.ts';
+import type { CollectionMetadata, NFTEvent } from '../../types.ts';
 
 export function getPollIntervalSeconds(): number {
   const envVal = process.env.POLL_INTERVAL_SECONDS;

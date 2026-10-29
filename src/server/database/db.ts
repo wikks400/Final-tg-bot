@@ -61,10 +61,11 @@ export function initDatabase(dbPath?: string): DatabaseSync {
     try {
       db.exec('PRAGMA journal_mode = WAL;');
       db.exec('PRAGMA synchronous = NORMAL;');
-      db.exec('PRAGMA cache_size = -2000;'); // Cap SQLite page cache to ~2MB RAM
+      db.exec('PRAGMA cache_size = -1000;'); // Cap SQLite page cache to ~1MB RAM
       db.exec('PRAGMA temp_store = MEMORY;');
       db.exec('PRAGMA mmap_size = 0;'); // Disable mmap to avoid virtual memory bloating
-      db.exec('PRAGMA wal_autocheckpoint = 100;'); // Checkpoint WAL frequently to keep disk usage low
+      db.exec('PRAGMA wal_autocheckpoint = 50;'); // Checkpoint WAL frequently so disk usage stays under control
+      db.exec('PRAGMA auto_vacuum = INCREMENTAL;');
     } catch {}
   }
 
@@ -1103,12 +1104,12 @@ export function addLog(
       VALUES (?, ?, ?, ?, ?)
     `).run(level, category, message, details || null, Date.now());
 
-    // Periodically prune logs if exceeding 500 rows to keep disk usage lean
-    if (Math.random() < 0.05) {
+    // Periodically prune logs if exceeding 100 rows to keep disk usage lean
+    if (Math.random() < 0.1) {
       db.exec(`
         DELETE FROM system_logs
         WHERE id NOT IN (
-          SELECT id FROM system_logs ORDER BY created_at DESC LIMIT 500
+          SELECT id FROM system_logs ORDER BY created_at DESC LIMIT 100
         );
       `);
     }
@@ -1124,6 +1125,10 @@ export function pruneOldEvents(maxAgeDays: number = 7, db = initDatabase()): num
   try {
     const cutoff = Date.now() - maxAgeDays * 86400000;
     const res = db.prepare('DELETE FROM processed_events WHERE timestamp < ?').run(cutoff);
+    try {
+      db.exec('PRAGMA incremental_vacuum(50);');
+      db.exec('PRAGMA wal_checkpoint(PASSIVE);');
+    } catch {}
     return (res as any).changes || 0;
   } catch {
     return 0;
